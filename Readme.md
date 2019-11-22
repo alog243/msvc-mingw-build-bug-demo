@@ -30,7 +30,7 @@ Yes, I agree, linking a MinGW-built static library into the MSVC buildchain is a
 
 `msvc-main`: calls `call_mingw_lib()`
 
-	LNK2019: unresolved external symbol __imp__aligned_malloc referenced in function call_aligned_alloc
+	LNK2019 unresolved external symbol __imp__aligned_malloc referenced in function call_aligned_alloc
 	LNK2019 unresolved external symbol __imp__aligned_free referenced in function call_aligned_alloc
 	LNK1120 2 unresolved externals
 
